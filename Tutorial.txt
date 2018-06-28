@@ -1,0 +1,37 @@
+
+Basic Parallax Website With HTML & CSS
+
+    # Go to PEXELS.Com for images.
+
+    # Atom live server :
+
+      ctrl-alt-l launch live server on port 3000.
+      ctrl-alt-q stop live server.
+      ctrl-alt-3 launch live server on port 3000.
+      ctrl-alt-4 launch live server on port 4000.
+      ctrl-alt-5 launch live server on port 5000.
+      ctrl-alt-8 launch live server on port 8000.
+      ctrl-alt-9 launch live server on port 9000.
+
+    # Basic of PARALLAX EFFECT :
+
+
+    (1)   .pimg1,.pimg2,.pimg3{
+              position: relative;
+              opacity: 0.7;
+              background-position: center;  // Align Image to Center
+              background-size: cover;       // Image Expanded Over Entire Height
+              background-repeat: no-repeat; // No Background Repeat
+              background-attachment: fixed; // Background Stays Fixed At Back Creating "PARALLAX EFFECT"
+          }
+
+    (2)   background-attachment: fixed;  // Background Stays Fixed At Back Creating "PARALLAX EFFECT"
+            1. "fixed" : for PARALLAX Effect.
+            2. "scroll" : for  Normal Image Position.
+            3. This Property May Cause Some Issues On Mobile Devices so another option can be using "@media" keyword.
+
+    # Firefox How to Enable Rulers for Screen Size Display :
+
+          (1) Open Developer Toolbar by Pressing (shift+f2).
+          (2) Type "rulers" Command Panel to Enable Rulers / Scale.
+  
